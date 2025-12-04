@@ -12,9 +12,9 @@ class CustomerSeeder extends Seeder
         // Customer::truncate();
 
         Customer::insert([
-            ['id' => 1, 'name' => 'Alice', 'email' => 'alice@example.com', 'created_at' => now(), 'updated_at' => now()],
-            ['id' => 2, 'name' => 'Bob', 'email' => 'bob@example.com', 'created_at' => now(), 'updated_at' => now()],
-            ['id' => 3, 'name' => 'Charlie', 'email' => 'charlie@example.com', 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 1, 'name' => 'A', 'email' => 'a@example.com', 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 2, 'name' => 'B', 'email' => 'b@example.com', 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 3, 'name' => 'C', 'email' => 'c@example.com', 'created_at' => now(), 'updated_at' => now()],
         ]);
     }
 }
